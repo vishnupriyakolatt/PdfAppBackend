@@ -10,7 +10,13 @@ import morgan from "morgan";
  const app = express();
  app.use(express.json());
 app.use(cors())
+
+
+
 app.use(morgan("dev"));
+
+
+app.get('/',(req,res)=>res.send('successfully get in the server'))
 app.use("/files", express.static("files"));
 
 

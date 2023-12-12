@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import PdfSchema from "../models/Pdf";
+import PdfSchema from "../models/Pdf.js";
 
 
 export const postpdf=async(req,res)=>{

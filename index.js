@@ -1,8 +1,8 @@
 import express from "express";
 import mongoose from 'mongoose';
-import router from './routes/user-router';
+import router from './routes/user-router.js';
 
- import pdfRouter from "./routes/pdf-routes";
+ import pdfRouter from "./routes/pdf-routes.js";
 import morgan from "morgan";
 
  
